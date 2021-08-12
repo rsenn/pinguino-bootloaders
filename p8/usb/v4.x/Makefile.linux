@@ -44,7 +44,7 @@ PROGRAMMER	= PK3
 #   COMPILERS TOOLCHAIN LOCATION                                       #
 ########################################################################
 
-XC8VER		= 1.43
+XC8VER		= 1.34
 MPLABVER	= 3.40
 JAVAVER		= 1.8.0_91
 

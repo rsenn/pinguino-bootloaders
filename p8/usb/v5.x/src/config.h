@@ -281,10 +281,10 @@ pull-up on RB5 and ensure the proper operation of the device.
     #pragma config IESO = ON            // Internal/External Oscillator Switchover (Oscillator Switchover mode disabled)
 
     // CONFIG2L
-    #pragma config nPWRTEN = OFF        // Power-up Timer Enable (Power up timer disabled)
+    #pragma config PWRTEN = OFF        // Power-up Timer Enable (Power up timer disabled)
     #pragma config BOREN = SBORDIS      // Brown-out Reset Enable (BOR enabled in hardware (SBOREN is ignored))
     #pragma config BORV = 190           // Brown-out Reset Voltage (BOR set to 1.9V nominal)
-    #pragma config nLPBOR = OFF         // Low-Power Brown-out Reset (Low-Power Brown-out Reset disabled)
+    #pragma config LPBOR = OFF         // Low-Power Brown-out Reset (Low-Power Brown-out Reset disabled)
 
     // CONFIG2H
     #pragma config WDTEN = SWON         // Watchdog Timer Enable bits (WDT controlled by firmware (SWDTEN enabled))

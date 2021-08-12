@@ -44,7 +44,7 @@ PROGRAMMER	= PK3
 #   COMPILERS TOOLCHAIN LOCATION                                       #
 ########################################################################
 
-XC8VER		= 1.41
+XC8VER		= 1.45
 MPLABVER	= 3.40
 JAVAVER		= 1.8.0_91
 
@@ -87,7 +87,8 @@ endif
 
 # Microchip PIC (PIC18F47J53 by default)
 ifeq ("x${PROC}", "x")
-	CPU			= 18f47j53
+	#CPU			= 18f47j53
+	CPU			= 18f25k50
 else
 	CPU			= $(shell echo $(PROC) | tr '[:upper:]' '[:lower:]')
 endif
